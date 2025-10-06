@@ -18,11 +18,5 @@ public class Main {
         sala.displaySeats();
         
         System.out.println("Available seats: " + sala.countAvailableSeats());
-        
-        Kino kino = new Kino();
-        System.out.println("Liczba wszystkich dostepnych miejsc w kinie: " + kino.countAvailableSeats());
-        kino.displayAllSeats();
-        
-        
     }
 }

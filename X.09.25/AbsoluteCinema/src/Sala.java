@@ -1,15 +1,15 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Sala {
-    private String name;
-    
     private int[][] seats = new int[5][5];
+    public String name;
+    
     public Sala() {
         for (int[] seat : seats) {
             Arrays.fill(seat, 0);
         }
     }
+    
 
     public Sala(String name) {
         this.name = name;
