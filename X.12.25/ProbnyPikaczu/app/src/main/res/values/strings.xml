@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProbnyPikaczu</string>
+    <string name="image_count">Liczba obrazkow: %1$s</string>
+    <string name="oneImage">Wyswietlam 1 obrazek</string>
+    <string name="twotofourImages">Wyswietlam %1$s obrazki</string>
+    <string name="overFiveImages">Wyswietlam %1$s obrazków</string>
+</resources>
