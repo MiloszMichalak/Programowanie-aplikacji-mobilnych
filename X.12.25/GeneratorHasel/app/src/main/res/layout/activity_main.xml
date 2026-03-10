@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ilosc_znakow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dlugosc hasła: X znaków"/>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:min="6"
+        android:max="20"
+        android:progress="12"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Małe litery a-z"/>
+        <CheckBox
+            android:id="@+id/wielkie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wielkie litery A-Z"/>
+        <CheckBox
+            android:id="@+id/cyfry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cyfry 0-9"/>
+        <CheckBox
+            android:id="@+id/specjalne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Znaki specjalne !@#$%^*"/>
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_items"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tryb podstawowy"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tryb mieszany"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tryb zaawansowany"/>
+
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/switchBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zapamietaj ustawienia"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GENERUJ"/>
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/passwords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
