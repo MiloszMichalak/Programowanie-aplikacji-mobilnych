@@ -1,5 +1,4 @@
-.idea
-.git
-.gradle
-.kotlin
-build
+.idea/
+.gradle/
+.kotlin/
+build/
